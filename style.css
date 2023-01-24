@@ -1,0 +1,34 @@
+.bg-violet{
+    background-color: blueviolet;
+}
+
+
+.letra-negra{
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1)
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+.fa-brands.fa-linkedin.fa-lg:hover{
+
+    color:black !important;
+}
+
+.fa-brands.fa-facebook.fa-lg:hover{
+
+    color:black !important;
+}
+
+.fa-brands.fa-github.fa-lg:hover{
+
+    color:black !important;
+}
+
+.fa-solid.fa-user-lock.fa-lg:hover{
+
+    color:black !important;
+}
