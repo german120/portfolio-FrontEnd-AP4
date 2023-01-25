@@ -1,5 +1,5 @@
 .bg-violet{
-    background-color: blueviolet;
+    background-color: rgb(131, 66, 192);
 }
 
 
@@ -31,4 +31,27 @@
 .fa-solid.fa-user-lock.fa-lg:hover{
 
     color:black !important;
+}
+
+section.banner{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.6)
+    ), url(/images/banner.jpg);
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -msn-background-size: cover;   
+}
+
+h3.intro{
+    padding-top: 10%;
+    }
+
+h1.intro{
+font-size: 3rem;
 }
