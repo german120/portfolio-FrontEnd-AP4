@@ -2,7 +2,6 @@
     background-color: rgb(131, 66, 192);
 }
 
-
 .letra-negra{
     filter: invert(1);
     -webkit-filter: invert(1);
@@ -55,3 +54,14 @@ h3.intro{
 h1.intro{
 font-size: 3rem;
 }
+
+body {
+    background: linear-gradient(top, blue, gold);
+    background: -webkit-linear-gradient(top, blue, gold);
+    background: -moz-linear-gradient(top, blue, gold);
+    background: -o-linear-gradient(top, blue, gold);
+    background: -ms-linear-gradient(top, blue, gold);
+
+
+}
+
